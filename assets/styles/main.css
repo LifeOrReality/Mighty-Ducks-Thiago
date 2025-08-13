@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.TITULO{
+    display: inline-block;
+    object-fit: cover;
+    position: relative;
+    right: -20px;
+    bottom: -70px;
+    color: white;
+    z-index: 99;
+    background-color: black;    
+    opacity: 80%;
+
+}
+.BANER{
+    border-color: aqua;
+
+}
+.IMG_BANER{
+    display: inline-block;
+    margin-top: 25px;
+    width: 90%;
+    margin-left: 20px;
+    height: 30vh;
+    object-fit: cover;
+    object-position: 50% 30%;
+}
+.SUB_BANER{
+    background-color: black;
+    color: white;
+    display: inline-block;
+    margin-left: 20px;
+    width: 90%;
+    height: 15px;
+    text-align: center;
+    position: relative; 
+}
+.IMG_LOGO{
+    display: inline-block;
+    object-fit: cover;
+    position: absolute;
+    right: 180px;
+    top: 40%;
+    transform: translateY(-50%);
+    width: 60px;
+    height: 60px;
+    z-index: 99;
+    background-color: white;
+    border: 1px solid black;
+}
+.MENU a{
+    margin-left: 20px;
+    padding-bottom: 30px;
+    display: inline-block;
+}
+.CONTENIDO{
+    display: inline-block;
+    position: absolute;
+    margin-left: 190px;
+    top: 43%;
+    padding-bottom: 30px;
+}
+.CONTENIDO p{
+    text-indent: 20px;
+}
