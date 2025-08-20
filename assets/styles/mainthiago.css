@@ -3,46 +3,36 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-
+    /* border: 1px solid red; */
 }
 body{
     background-color: white;
     
 }
-.IMG_LOGO_FONDO{
-    display: inline-block;
-    object-fit: cover;
-    position: absolute;
-    right: 45%;
-    top: 64%;
-    transform: translateY(-50%);
-    width: 240px;
-    height: 240px;
-    z-index: -98;
-    opacity: 20%;
-    }
 .TITULO{
-    display: inline-block;
+    display: flex;
     margin: 6px;
     object-fit: cover;
-    position: relative;
+    position: absolute;
+    font-size: 2vw;
     width: fit-content;
+    max-width: 60%;
+    min-width: 40%;
+    left: 4.5%;
+    top: 5%;
     padding: 0px 10px;
-    right: -20px;
-    bottom: -70px;
     color: white;
     z-index: 99;
     background-color: black;    
     border-radius: 55px;
     opacity: 80%;
-
 }
 .BANER{
     border-color: aqua;
-
+    
 }
-.IMG_BANER{
-    display: inline-block;
+.IMGBANER{
+    display: flex;
     margin-top: 25px;
     width: 90%;
     margin-left: 20px;
@@ -50,22 +40,30 @@ body{
     object-fit: cover;
     object-position: 50% 30%;
 }
-.SUB_BANER{
+.SUBBANER{
     background-color: black;
     color: white;
-    display: inline-block;
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+    flex-direction: column;
     margin-left: 20px;
     width: 90%;
     height: 22.5px;
     text-align: center;
     position: relative; 
 }
-.IMG_LOGO{
-    display: inline-block;
+.LOGO{
+    align-self:flex-end ;
+    transform: translate(-14vh, -2vw);
+
+}
+.CABECERA{
+    display: flex;
+    flex-direction: column;
+}
+.IMGLOGO{
     object-fit: cover;
-    position: absolute;
-    right: 180px;
-    top: 40%;
     transform: translateY(-50%);
     width: 60px;
     height: 60px;
@@ -73,21 +71,23 @@ body{
     background-color: white;
     border: 1px solid black;
 }
-.MENU a{
-    margin-left: 25px;
-    padding-bottom: 10px;
-    padding-top: 10px;
-    margin-bottom: 10px;
-    width: 110px;
-    font-size: 12px;
-    text-align: center;
-    position: relative;
-    display: inline-block;
-    background-color: black;    
-    border-radius: 55px;
-    opacity: 80%;
-    color: white;
-    text-decoration: none;
+.IMGLOGOFONDO{
+    display: flex;
+    object-fit: cover;
+    position: absolute;
+    left: 40%;
+    top: 60%;
+    transform: translateY(-50%);
+    width: 20%;
+    height: auto;
+    z-index: -98;
+    opacity: 20%;
+}
+.MENU{
+    padding: 8px;
+    display: inline-flex;
+    flex-wrap: nowrap;
+    flex-flow: column;
 }
 .MENU a:hover {
     background-color: gray;    
@@ -99,12 +99,34 @@ body{
     opacity: 100%;
     color: white;
 }
+.MENU a{
+    margin-left: 25px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-bottom: 10px;
+    width: 110px;
+    font-size: 12px;
+    text-align: center;
+    display: inline-flex;
+    flex-wrap: nowrap;
+    white-space: nowrap;
+    flex-flow: column;
+    background-color: black;    
+    border-radius: 55px;
+    opacity: 80%;
+    color: white;
+    text-decoration: none;
+}
 .CONTENIDO{
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
     position: absolute;
     margin-left: 190px;
-    top: 46%;
+    top: 43%;
     padding-bottom: 30px;
+    min-height: auto;
+    max-width: 75%;
+    min-width: 75%;
 }
 .CONTENIDO p{
     text-indent: 20px;

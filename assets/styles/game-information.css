@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.tabla_cont_principal{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    margin-left: 190px;
+    top: 43%;
+    padding-bottom: 30px;
+    min-height: auto;
+    min-width: 75%;
+}
+.Tablas{
+    border-bottom:1px solid black ;
+    border-top:1px solid black ;
+    text-align: center;
+}

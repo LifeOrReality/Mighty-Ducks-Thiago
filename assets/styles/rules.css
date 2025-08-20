@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.Cuerpo_Principal{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    margin-left: 190px;
+    top: 43%;
+    padding-bottom: 30px;
+    min-height: auto;
+    min-width: 45%;
+    max-width: 78%;
+    
+}
+.Tabla_Rules ol{
+    padding-left: 30px;
+}
+.Tabla_Rules ol ol{
+    list-style: lower-alpha;
+}
