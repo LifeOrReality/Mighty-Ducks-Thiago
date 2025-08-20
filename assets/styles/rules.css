@@ -21,3 +21,10 @@
 .Tabla_Rules ol ol{
     list-style: lower-alpha;
 }
+.List_Puntito{
+    list-style: circle;
+    padding-left: 30px;
+}
+.Sangria{
+    text-indent: 25px;
+}

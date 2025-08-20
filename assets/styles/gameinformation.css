@@ -18,3 +18,10 @@
     border-top:1px solid black ;
     text-align: center;
 }
+.Contacto{
+    display: flex;
+    justify-content: space-between;
+    top: 43%;
+    min-height: auto;
+    min-width: 75%;
+}
