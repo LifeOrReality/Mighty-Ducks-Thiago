@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+.genero{
+    display: flex;
+    flex-direction: row;
+    padding: 0 10px;
+}
+
+textarea{
+    resize: none;
+}
+.Cuerpo_Principal{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    margin-left: 190px;
+    top: 43%;
+    min-height: auto;
+    min-width: 70%;
+    max-width: 78%;
+    min-height: ma;
+    justify-content: start;
+    border: solid black 1px;
+    padding: 0 10px;
+}
+.Cuerpo_Principal h2{
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+.IMGLOGOFONDO{
+    display: flex;
+    object-fit: cover;
+    position: absolute;
+    left: 40%;
+    top: 80%;
+    transform: translateY(-50%);
+    width: 20%;
+    height: auto;
+    z-index: -98;
+    opacity: 20%;
+}
+.Cabecera_Formulario{
+    display: flex; 
+    flex-direction: column;
+}
+.Grado, .School, .Position, .Size{
+    padding: 0 10px;
+}
+.Cuerpo_Principal h3{
+    text-align: center;
+}
+.Boton_Enviar{
+    max-width: 90px;
+    min-width: 60px;
+    text-align: center;
+    align-self: center;
+}

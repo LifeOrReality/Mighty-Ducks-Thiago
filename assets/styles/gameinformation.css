@@ -24,4 +24,16 @@
     top: 43%;
     min-height: auto;
     min-width: 75%;
+
+}
+.Maps{
+    padding: 80px;
+}
+td:nth-child(even){
+    display: flex;
+    justify-content: center;
+}
+.Maps iframe{
+    border: 1px solid red;
+    text-align: center;
 }
